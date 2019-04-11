@@ -1,5 +1,0 @@
-[{"url":"http:\/\/lb1pp\/index\/obl\/23","response":"{\"obl\":\"Kaliningrad\"\r}","method":"GET"},
-  {"url":"http:\/\/lb1pp\/index\/fib\/8","response":"{\"fib\":21}","method":"GET"},
-  {"url":"http:\/\/lb1pp\/index\/ur?a=3&b=5&c=-1","response":"{\"x1\":1.6241437954473,\"x2\":-16.624143795447}","method":"GET"},
-  {"url":"http:\/\/lb1pp\/index\/date?date=12.12.1995","response":"{\"Den nedeli\":Tue}","method":"GET"},
-  {"url":"http:\/\/lb1pp\/index\/prop\/23","response":"{\"prop\":\u0434\u0432\u0430\u0434\u0446\u0430\u0442\u044c \u0442\u0440\u0438}","method":"GET"}]
