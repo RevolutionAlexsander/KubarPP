@@ -1,0 +1,16 @@
+# Включаем mod_rewrite
+RewriteEngine on
+
+# Устанавливаем core.php индексным файлом
+#DirectoryIndex index.php
+# Если файл физически не найден
+#RewriteCond %{REQUEST_FILENAME} !-s
+# то направим на core.php с параметрами URI
+#RewriteRule ^(.+)$ /index.php?$1 [L]
+
+RewriteCond %{REQUEST_METHOD} =GET
+   # Выявляем GET запрос в URL (не POST).
+RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
+   # URL cодержит index.php в конце.
+RewriteRule ^(.*)$ %1/ [R=301,L]
+   # Удалить index.php из URL.
